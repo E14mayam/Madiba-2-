@@ -1,0 +1,460 @@
+@font-face {
+    font-family: "Chennai Slab";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../fonts/ChennaiSlab.woff2") format("woff2");
+}
+
+
+@font-face {
+    font-family: "Engravers Gothic BT";
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("../fonts/Engravers-Gothic-BT-Font.ttf") format("truetype");
+}
+
+body {
+    background-color: #1d1d1d;
+    overflow-x: hidden;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+  
+
+.header {
+    padding: 0px 180px;
+    font-family: "Engravers Gothic BT";
+    font-size: 25px;
+}
+
+.header-text span{
+    color: #03ff83;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.header-text span:hover {
+    letter-spacing: 2px;
+    cursor: default;
+}
+
+.header-links a{
+    color: #7a9788;
+    margin-left: 6px;
+    margin-right: 6px;
+    transition: 0.7s;
+}
+
+.header-links a:hover{
+    letter-spacing: 2px;
+    transform: translateY(-10px);
+    color: #7a9788;
+}
+
+.header-text span{
+    padding: 0px 10px;
+}
+
+.header-text img{
+    width: 20px;
+    padding-bottom: 7px;
+}
+
+.img{
+    max-width: 550px;
+    transition: 0.9s;
+    width: 100%;
+}
+
+.wallet a {
+    text-decoration: none;
+    color: #7a9788;
+    font-family: 'Chennai Slab';
+}
+
+.top-section-left h2 {
+    color: #c5ffe2;
+    font-size: 30px;
+    font-family: 'Chennai Slab';
+    font-weight: 100;
+}
+
+.top-section-left ul {
+    font-family: "Engravers Gothic BT";
+    font-size: 19px;
+    color: #7a9788;
+    list-style-type: square;
+}
+
+.img-small {
+    max-width: 70px;
+    max-height: 70px;
+    padding: 10px 10px;
+    background-color: #7a9788;
+    border-radius: 50%;
+}
+
+.wallet a img{
+    width: 60px;
+    height: 60px;
+}
+
+.wallet_option {
+    border: 1px solid #03ff83;
+}
+
+.wallet_header {
+    border-bottom: none;
+}
+
+.wallet_header h5 {
+    color: #7a9788;
+    font-family: 'Chennai Slab';
+    text-decoration: underline;
+}
+
+.top-section-left h1 {
+    font-family: 'Chennai Slab';
+    color: #03ff83;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+@media(max-width: 1180px){
+    .top-section-left h1 {
+        font-size: 45px;
+    }
+
+    .header-links {
+     display: none;
+    }
+
+    .header-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header{
+        padding: 0px 0px;
+    }
+   
+}
+
+.top-section-left p {
+    color: #7a9788;
+    font-family: 'Chennai Slab';
+}
+
+.ecosystem-content {
+    width: 350px;
+    max-height: 500px;
+    border: 1px solid #45574dbe;
+    background-color: #1d1d1d;
+    transition: 0.8s;
+}
+
+.ecosystem-content:hover {
+    box-shadow: 0.5px 0.5px 15px 5px #03ff8128;
+}
+  
+.ecosystem-content img {
+    width: 35px;
+    height: 35px;
+    background-color: #7a9788;
+    padding: 10px 10px;
+    border-radius: 3px;
+    fill: #000;
+}
+  
+.ecosystem-content h2 span {
+    font-size: 35px;
+    font-family: "Engravers Gothic BT";
+    padding: 0px 0px 0px 17px;
+    color: #03ff83;
+    font-weight: 200;
+}
+  
+.ecosystem-content p {
+    font-family: "Chennai Slab";
+    font-size: 14px;
+    color: #7a9788;
+}
+  
+.ecosystem-content hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border: 0.8px solid #45574dbe;
+}
+
+.link-general {
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: #03ff83;
+    color: #1d1d1d;
+    box-shadow: 0px 0px 10px 5px #03ff8165;
+    font-family: "Engravers Gothic BT";
+    font-size: 20px;
+}
+
+.buy {
+  margin-top: 30px;
+  max-width: 400px;
+  height: 450px;
+  background-color: #1D1D1D;
+  border: 1px solid #03FF837F;
+  box-shadow: 0px 0px 10px 1px #03FF837F;
+  border-radius: 15px;
+}
+
+.header-links a:focus{
+    color: #7a9788;
+}
+
+.pool_text h1{
+    font-family: "Engravers Gothic BT";
+    color: #03ff83;
+    font-size: 70px;
+}
+
+.pool_text p{
+    color: #c5ffe2;
+    font-family: 'Chennai Slab';
+}
+
+.pool img:hover {
+    transform: scale(0.98);
+}
+
+
+.wallet_option {
+    background-color: #1d1d1d;
+  box-shadow: 0px 0px 10px 1px #03FF837F;
+}
+
+.end-tab {
+    flex-direction: row;
+}
+  
+.end-tab h3 {
+    font-size: 2rem;
+    font-family: "Engravers Gothic BT";
+    color: #c5ffe2;
+    font-weight: 200;
+}
+  
+.end-tab ul {
+    text-align: left;
+}
+  
+.end-tab ul li {
+    padding: 0px 0px 15px 0px;
+}
+  
+.end-tab ul li a {
+    color: #7a9788;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Chennai Slab";
+}
+  
+.end-text h3 {
+    font-family: "Chennai Slab";
+    color: #7a9788;
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.buy input{
+  outline: none;
+  background-color: #1d1d1d;
+  border-color: #03ff83;
+  color: #7A9788;
+  font-family: "Chennai Slab";
+  font-size: 25px;
+  padding: 15px 45px;
+  border-radius: 15px;
+}
+
+.buy h1 {
+    font-family: "Engravers Gothic BT";
+    color: #03FF83;
+    font-size: 2.3rem;
+    padding: 40px 0px;
+    font-weight: 100;
+}
+
+.buy hr {
+  width: 85%;
+  border: 0.5px solid #c5ffe221;
+}
+
+.buy-btn:focus {
+    box-shadow: 0px 0px 10px 5px #03ff8165;
+}
+
+.buy p{
+    color: #c5ffe2;
+    font-family: 'Chennai Slab';
+    margin-bottom: 60px;
+}
+
+.roadmap-table-content {
+    max-width: 600px;
+    min-height: 280px;
+    background-color: #1d1d1d;
+    border: 1px solid #45574dbe;
+    box-shadow: 0.5px 0.5px 10px 3px #03ff811c;
+}
+
+@media(max-width: 738px){
+    .roadmap-table-content {
+        width: 350px;
+    }
+
+    .buy {
+        max-width: 90%;
+    }
+
+    .buy input {
+        padding: 10px 20px;
+    }
+    
+}
+
+.bt-bar {
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    position: fixed;
+    left: 0px;
+    background-color: #1d1d1d;
+    width: 250px;
+    height: 110vh;
+    top: 0px;
+    z-index: -10;
+    border-right: 1px solid #03ff83;
+    transition: all ease 0.5s;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all ease 0.5s;
+    -o-transition: all ease 0.5s;
+    
+}
+
+.grow {
+    animation: grow 0.5s linear forwards ;
+}
+
+
+@keyframes grow{
+
+    0% {
+        left: -40%;
+      }
+
+      100% {
+        left: 0;    
+      }
+    
+
+}
+
+
+
+
+
+.bt-bar a {
+    font-family: "Engravers Gothic BT";
+    font-weight: 200;
+    color: #7a9788;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px 0px;
+    text-align: left;
+    margin-left: 20%;
+}
+
+.exit{
+    position: absolute;
+    left: 260px;
+    top: 40px;
+    background: none;
+    border: none;
+    opacity: 0;
+}
+
+.exit, i{
+    color: #7a9788;
+    font-size: 40px;
+}
+
+.menu{
+    color: #7a9788;
+    background: none;
+    border: none; 
+    font-size: 25px;
+}
+
+.bt-bar i{
+    margin-right: 10px;
+}
+
+@media(min-width: 1181px){
+    .bt-bar{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+.roadmap-table-content h1 {
+    font-family: "Engravers Gothic BT";
+    font-weight: 200;
+    color: #03ff83;
+    font-size: 30px;
+}
+  
+.roadmap-table-content h3 {
+    color: #7a9788;
+    font-size: 15px;
+    font-family: "Engravers Gothic BT";
+    font-weight: 200;
+}
+
+  
+.roadmap-table-content p {
+    color: #c5ffe2;
+    font-size: 15px;
+    font-family: "Chennai Slab";
+}
+
+#bottom {
+    background: url('../images/Group60.svg');
+    background-size: cover;
+}
+
+#top{
+    background-image: url(../images/Group12.svg);
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 124vw;
+}
+
+#nft{
+    background-image: url(../images/Group29.png);
+    background-size: cover;
+}
+
+  
+
